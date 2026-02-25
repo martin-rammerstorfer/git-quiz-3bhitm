@@ -1,0 +1,546 @@
+*   [33mcommit 7fda6f1eb9df8ca3a9a875f0b127f85f7381dd29[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+[31m|[m[32m\[m  Merge: 49fbe5d 58f8a33
+[31m|[m [32m|[m Author: martin-rammerstorfer <rammerstorfer.m@students.htl-leonding.ac.at>
+[31m|[m [32m|[m Date:   Wed Feb 25 08:23:44 2026 +0100
+[31m|[m [32m|[m 
+[31m|[m [32m|[m     Merge branch 'commit-branch'
+[31m|[m [32m|[m 
+[31m|[m * [33mcommit 58f8a332d5940a91a814c20c782627d929cf68c2[m[33m ([m[1;31morigin/commit-branch[m[33m, [m[1;32mcommit-branch[m[33m)[m
+[31m|[m [32m|[m Author: martin-rammerstorfer <rammerstorfer.m@students.htl-leonding.ac.at>
+[31m|[m [32m|[m Date:   Wed Feb 25 08:20:32 2026 +0100
+[31m|[m [32m|[m 
+[31m|[m [32m|[m     Fix bad commit messages
+[31m|[m [32m|[m 
+[31m|[m [32m|[m [1mdiff --git a/project/index.html b/project/index.html[m
+[31m|[m [32m|[m [1mindex e4b19f7..25d92b9 100644[m
+[31m|[m [32m|[m [1m--- a/project/index.html[m
+[31m|[m [32m|[m [1m+++ b/project/index.html[m
+[31m|[m [32m|[m [36m@@ -35,6 +35,15 @@[m
+[31m|[m [32m|[m          <li>asdf</li>[m
+[31m|[m [32m|[m      </ul>[m
+[31m|[m [32m|[m  [m
+[31m|[m [32m|[m [32m+[m[32m    <h2>Bessere Commit-Messages</h2>[m
+[31m|[m [32m|[m [32m+[m[32m    <ul>[m
+[31m|[m [32m|[m [32m+[m[32m        <li>Update info on about page</li>[m
+[31m|[m [32m|[m [32m+[m[32m        <li>Fix login error</li>[m
+[31m|[m [32m|[m [32m+[m[32m        <li>Change links to pages</li>[m
+[31m|[m [32m|[m [32m+[m[32m        <li>Fix bug in calculation</li>[m
+[31m|[m [32m|[m [32m+[m[32m        <li>Add text "asdf" to landing pages</li>[m
+[31m|[m [32m|[m [32m+[m[32m    </ul>[m
+[31m|[m [32m|[m [32m+[m
+[31m|[m [32m|[m  [m
+[31m|[m [32m|[m       <!-- Unnecessary Comment added: Good Morning 3BHITM!! -->[m
+[31m|[m [32m|[m  [m
+[31m|[m [32m|[m 
+* [32m|[m [33mcommit 49fbe5d551cf5cfccedcaad817962d49fd0d6936[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+[32m|[m[32m/[m  Author: martin-rammerstorfer <rammerstorfer.m@students.htl-leonding.ac.at>
+[32m|[m   Date:   Wed Feb 25 08:21:30 2026 +0100
+[32m|[m   
+[32m|[m       Add test code on main page
+[32m|[m   
+[32m|[m   [1mdiff --git a/project/index.html b/project/index.html[m
+[32m|[m   [1mindex e4b19f7..56f375f 100644[m
+[32m|[m   [1m--- a/project/index.html[m
+[32m|[m   [1m+++ b/project/index.html[m
+[32m|[m   [36m@@ -35,6 +35,8 @@[m
+[32m|[m            <li>asdf</li>[m
+[32m|[m        </ul>[m
+[32m|[m    [m
+[32m|[m   [32m+[m[32m    <p>This is code</p>[m
+[32m|[m   [32m+[m
+[32m|[m    [m
+[32m|[m         <!-- Unnecessary Comment added: Good Morning 3BHITM!! -->[m
+[32m|[m    [m
+[32m|[m 
+* [33mcommit 2f40f6a26525220731972c50284bed342e28fe4d[m
+[32m|[m Author: martin-rammerstorfer <rammerstorfer.m@students.htl-leonding.ac.at>
+[32m|[m Date:   Wed Feb 25 08:15:48 2026 +0100
+[32m|[m 
+[32m|[m     Add placeholder text on main page
+[32m|[m 
+[32m|[m [1mdiff --git a/project/index.html b/project/index.html[m
+[32m|[m [1mindex 3f9f5f2..e4b19f7 100644[m
+[32m|[m [1m--- a/project/index.html[m
+[32m|[m [1m+++ b/project/index.html[m
+[32m|[m [36m@@ -16,8 +16,9 @@[m
+[32m|[m              </ul>[m
+[32m|[m          </nav>[m
+[32m|[m  [m
+[32m|[m [31m-        <!-- # TO DO: deinen Namen einfügen, dann Commit durchführen! -->[m
+[32m|[m [31m-         [m
+[32m|[m [32m+[m[32m        <!-- Martin Rammerstorfer -->[m
+[32m|[m [32m+[m[32m        <p>Lorem ipsum</p>[m
+[32m|[m [32m+[m
+[32m|[m      </header>[m
+[32m|[m  [m
+[32m|[m  [m
+[32m|[m 
+* [33mcommit d87473dd086df3d59580b07c73f8f26b828ec509[m
+[32m|[m Author: Natascha Rammelmüller <n.rammelmueller@htl-leonding.ac.at>
+[32m|[m Date:   Wed Feb 25 07:10:45 2026 +0100
+[32m|[m 
+[32m|[m     feature
+[32m|[m 
+[32m|[m [1mdiff --git a/project/index.html b/project/index.html[m
+[32m|[m [1mindex f8bb81f..3f9f5f2 100644[m
+[32m|[m [1m--- a/project/index.html[m
+[32m|[m [1m+++ b/project/index.html[m
+[32m|[m [36m@@ -22,6 +22,7 @@[m
+[32m|[m  [m
+[32m|[m  [m
+[32m|[m      <main>[m
+[32m|[m [32m+[m[32m        <h1>Hallo 3BHITM!</h1>[m
+[32m|[m           <h1>Commit Message Training</h1>[m
+[32m|[m  [m
+[32m|[m      <h2>Schlechte Commit-Messages</h2>[m
+[32m|[m 
+* [33mcommit f7f599d0b0e0f5f5d6a12bc7cf697f3a664b6b04[m
+[32m|[m Author: Natascha Rammelmüller <n.rammelmueller@htl-leonding.ac.at>
+[32m|[m Date:   Wed Feb 25 07:09:32 2026 +0100
+[32m|[m 
+[32m|[m     new
+[32m|[m 
+[32m|[m [1mdiff --git a/project/index.html b/project/index.html[m
+[32m|[m [1mindex 421a1e3..f8bb81f 100644[m
+[32m|[m [1m--- a/project/index.html[m
+[32m|[m [1m+++ b/project/index.html[m
+[32m|[m [36m@@ -34,7 +34,7 @@[m
+[32m|[m      </ul>[m
+[32m|[m  [m
+[32m|[m  [m
+[32m|[m [31m-     <!-- Unnecessary Comment added: Good Morning! -->[m
+[32m|[m [32m+[m[32m     <!-- Unnecessary Comment added: Good Morning 3BHITM!! -->[m
+[32m|[m  [m
+[32m|[m  [m
+[32m|[m      </main>[m
+[32m|[m 
+* [33mcommit 8be24db117802b8ebe2f24ea2d230426244d5a73[m
+[32m|[m Author: Natascha Rammelmüller <n.rammelmueller@htl-leonding.ac.at>
+[32m|[m Date:   Wed Feb 25 07:09:10 2026 +0100
+[32m|[m 
+[32m|[m     add
+[32m|[m 
+[32m|[m [1mdiff --git a/project/index.html b/project/index.html[m
+[32m|[m [1mindex 8b7d37a..421a1e3 100644[m
+[32m|[m [1m--- a/project/index.html[m
+[32m|[m [1m+++ b/project/index.html[m
+[32m|[m [36m@@ -11,8 +11,8 @@[m
+[32m|[m          <h1>Willkommen zum GIT Quiz</h1>[m
+[32m|[m          <nav>[m
+[32m|[m              <ul>[m
+[32m|[m [31m-                <li><a href="index.html">Home</a></li>[m
+[32m|[m [31m-                <li><a href="about.html">Über uns</a></li>[m
+[32m|[m [32m+[m[32m                <li><a href="">Home</a></li>[m
+[32m|[m [32m+[m[32m                <li><a href="">Über uns</a></li>[m
+[32m|[m              </ul>[m
+[32m|[m          </nav>[m
+[32m|[m  [m
+[32m|[m [36m@@ -34,7 +34,7 @@[m
+[32m|[m      </ul>[m
+[32m|[m  [m
+[32m|[m  [m
+[32m|[m [31m-[m
+[32m|[m [32m+[m[32m     <!-- Unnecessary Comment added: Good Morning! -->[m
+[32m|[m  [m
+[32m|[m  [m
+[32m|[m      </main>[m
+[32m|[m 
+* [33mcommit db8992f5f4a93be4face083f50619a81cefcf928[m
+[32m|[m Author: Natascha Rammelmüller <n.rammelmueller@htl-leonding.ac.at>
+[32m|[m Date:   Wed Feb 25 07:08:41 2026 +0100
+[32m|[m 
+[32m|[m     cleanup code
+[32m|[m 
+[32m|[m [1mdiff --git a/project/index.html b/project/index.html[m
+[32m|[m [1mindex a4e0c3b..8b7d37a 100644[m
+[32m|[m [1m--- a/project/index.html[m
+[32m|[m [1m+++ b/project/index.html[m
+[32m|[m [36m@@ -36,7 +36,6 @@[m
+[32m|[m  [m
+[32m|[m  [m
+[32m|[m  [m
+[32m|[m [31m-    <!-- Unnecessary Comment added: Good Morning! -->[m
+[32m|[m  [m
+[32m|[m      </main>[m
+[32m|[m  [m
+[32m|[m 
+* [33mcommit dd866aeeaf54cf369f54d29b121006314b6a1caa[m
+[32m|[m Author: Natascha Rammelmüller <n.rammelmueller@htl-leonding.ac.at>
+[32m|[m Date:   Wed Feb 25 07:07:55 2026 +0100
+[32m|[m 
+[32m|[m     update index
+[32m|[m 
+[32m|[m [1mdiff --git a/project/index.html b/project/index.html[m
+[32m|[m [1mindex 662e1e2..a4e0c3b 100644[m
+[32m|[m [1m--- a/project/index.html[m
+[32m|[m [1m+++ b/project/index.html[m
+[32m|[m [36m@@ -36,7 +36,7 @@[m
+[32m|[m  [m
+[32m|[m  [m
+[32m|[m  [m
+[32m|[m [31m-[m
+[32m|[m [32m+[m[32m    <!-- Unnecessary Comment added: Good Morning! -->[m
+[32m|[m  [m
+[32m|[m      </main>[m
+[32m|[m  [m
+[32m|[m 
+* [33mcommit a2f58c5cd469510e720b4884737fe773cf778419[m
+[32m|[m Author: Natascha Rammelmüller <104194982+nrammelmueller@users.noreply.github.com>
+[32m|[m Date:   Wed Feb 25 07:06:53 2026 +0100
+[32m|[m 
+[32m|[m     init files for quiz
+[32m|[m 
+[32m|[m [1mdiff --git a/Angabe.md b/Angabe.md[m
+[32m|[m [1mnew file mode 100644[m
+[32m|[m [1mindex 0000000..16deb36[m
+[32m|[m [1m--- /dev/null[m
+[32m|[m [1m+++ b/Angabe.md[m
+[32m|[m [36m@@ -0,0 +1,44 @@[m
+[32m|[m [32m+[m[32m# GIT Quiz - Angabe[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m## Aufgabenstellung[m
+[32m|[m [32m+[m[32m**Name:** _____________________[m[41m  [m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m### Ziel[m
+[32m|[m [32m+[m[32mZeige in diesem Quiz, dass du die Grundlagen von Git verstanden hast.[m
+[32m|[m [32m+[m[32mDu arbeitest strukturiert mit Branches, führst saubere Commits durch und kannst eine bestehende Git-History analysieren.[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m### Aufgaben[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m1. **Repository duplizieren = FORK (2 Punkte)**[m
+[32m|[m [32m+[m[32m   - Erstelle ein Duplikat = FORK des Repositories in deinem eigenen Account.[m[41m [m
+[32m|[m [32m+[m[32m   - Klone das Repository auf deinen lokalen Rechner.[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m2. **Erste Commits durchführen (3 Punkte)**[m[41m [m
+[32m|[m [32m+[m[32m   - Öffne die Datei index.html.[m[41m [m
+[32m|[m [32m+[m[32m   - Ergänze in der Datei eigenen Code an der markierten Stelle.[m[41m [m
+[32m|[m [32m+[m[32m   - Stage die Änderung. Erstelle einen sinnvollen Commit mit einer aussagekräftigen Message. Die Commit-Message wird bewertet![m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m3. **Branches erstellen (4 Punkte)**[m
+[32m|[m [32m+[m[32m   - Erstellen Sie einen Branch `commit-branch`.[m[41m [m
+[32m|[m [32m+[m[32m   - Wechsle auf diesen Branch.[m[41m [m
+[32m|[m [32m+[m[32m   - In diesem Branch sollst du das File `index.html` überarbeiten.[m[41m [m
+[32m|[m [32m+[m[32m   - Du findest dort einen Bereich mit schlechten Commit-Messages. KOPIERE den Bereich, und verbessere die Nachrichten.[m
+[32m|[m [32m+[m[32m   - Stagen und Commiten. Achtung: AM BRANCH![m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m4. **Merge-Conflict provozieren (5 Punkte)**[m
+[32m|[m [32m+[m[32m   - Wechsle nun zurück zum Hauptbranch `main` und bearbeite auch hier die Datei `index.html`. Ergänze an der gleichen Stelle wie im Branch `commit-branch` eigenen Code.[m
+[32m|[m [32m+[m[32m   - Stagen und Commiten. Achtung: AM HAUPTBRANCH![m
+[32m|[m [32m+[m[32m   - Nun versuche den Branch `commit-branch` in den Hauptbranch `main` zu mergen.[m
+[32m|[m [32m+[m[32m   - Es sollte ein Merge-Conflict entstehen. Löse diesen korrekt.[m
+[32m|[m [32m+[m[32m   - Committe die Lösung.[m
+[32m|[m [32m+[m[41m  [m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m5. **GIT-History analysieren (4 Punkte)**[m
+[32m|[m [32m+[m[32mSchaue dir nun die komplette Commit-History an. Denn im aktuellen Projekt funktioniert die Navigation nicht korrekt. Finde heraus, in welchem Commit der Fehler eingeführt werde. Beschreibe kurz / gibt die Commit-ID an. Mit welchem Befehl hast du dies herausgefunden? Wie viele Commits wurden insgesamt in diesem Projekt erstellt?[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m-----------------------[m[41m [m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32mDu hast das Quiz nun erfolgreich abgeschlossen. Gib HIER den Link zu deinem geforkten Repository an: _____________________[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32mGib anschließend dieses ANGABE-File bei MOODLE ab![m
+[32m|[m [32m+[m
+[32m|[m [1mdiff --git a/project/about.html b/project/about.html[m
+[32m|[m [1mnew file mode 100644[m
+[32m|[m [1mindex 0000000..1225aee[m
+[32m|[m [1m--- /dev/null[m
+[32m|[m [1m+++ b/project/about.html[m
+[32m|[m [36m@@ -0,0 +1,44 @@[m
+[32m|[m [32m+[m[32m<!DOCTYPE html>[m
+[32m|[m [32m+[m[32m<html lang="de">[m
+[32m|[m [32m+[m[32m<head>[m
+[32m|[m [32m+[m[32m    <meta charset="UTF-8">[m
+[32m|[m [32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m|[m [32m+[m[32m    <title>GIT Quiz - Über uns</title>[m
+[32m|[m [32m+[m[32m    <link rel="stylesheet" href="style.css">[m
+[32m|[m [32m+[m[32m</head>[m
+[32m|[m [32m+[m[32m<body>[m
+[32m|[m [32m+[m[32m    <header>[m
+[32m|[m [32m+[m[32m        <h1>Über uns</h1>[m
+[32m|[m [32m+[m[32m        <nav>[m
+[32m|[m [32m+[m[32m            <ul>[m
+[32m|[m [32m+[m[32m                <li><a href="index.html">Home</a></li>[m
+[32m|[m [32m+[m[32m                <li><a href="about.html">Über uns</a></li>[m
+[32m|[m [32m+[m[32m            </ul>[m
+[32m|[m [32m+[m[32m        </nav>[m
+[32m|[m [32m+[m[32m    </header>[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m    <main>[m
+[32m|[m [32m+[m[32m        <section class="about">[m
+[32m|[m [32m+[m[32m            <h2>Platzhalter Über uns</h2>[m
+[32m|[m [32m+[m[32m            <p>Dies ist die "Über uns" Seite mit Platzhalter-Inhalt.</p>[m
+[32m|[m [32m+[m[32m            <p>Hier können weitere Informationen eingefügt werden.</p>[m
+[32m|[m [32m+[m[32m        </section>[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m        <section class="team">[m
+[32m|[m [32m+[m[32m            <h2>Unser Team</h2>[m
+[32m|[m [32m+[m[32m            <div class="team-member">[m
+[32m|[m [32m+[m[32m                <h3>Person 1</h3>[m
+[32m|[m [32m+[m[32m                <p>Rolle: Platzhalter</p>[m
+[32m|[m [32m+[m[32m            </div>[m
+[32m|[m [32m+[m[32m            <div class="team-member">[m
+[32m|[m [32m+[m[32m                <h3>Person 2</h3>[m
+[32m|[m [32m+[m[32m                <p>Rolle: Platzhalter</p>[m
+[32m|[m [32m+[m[32m            </div>[m
+[32m|[m [32m+[m[32m        </section>[m
+[32m|[m [32m+[m[32m    </main>[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m    <footer>[m
+[32m|[m [32m+[m[32m        <p>&copy; 2026 GIT Quiz Template</p>[m
+[32m|[m [32m+[m[32m    </footer>[m
+[32m|[m [32m+[m[32m</body>[m
+[32m|[m [32m+[m[32m</html>[m
+[32m|[m [1mdiff --git a/project/index.html b/project/index.html[m
+[32m|[m [1mnew file mode 100644[m
+[32m|[m [1mindex 0000000..662e1e2[m
+[32m|[m [1m--- /dev/null[m
+[32m|[m [1m+++ b/project/index.html[m
+[32m|[m [36m@@ -0,0 +1,47 @@[m
+[32m|[m [32m+[m[32m<!DOCTYPE html>[m
+[32m|[m [32m+[m[32m<html lang="de">[m
+[32m|[m [32m+[m[32m<head>[m
+[32m|[m [32m+[m[32m    <meta charset="UTF-8">[m
+[32m|[m [32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m|[m [32m+[m[32m    <title>GIT Quiz - Startseite</title>[m
+[32m|[m [32m+[m[32m    <link rel="stylesheet" href="style.css">[m
+[32m|[m [32m+[m[32m</head>[m
+[32m|[m [32m+[m[32m<body>[m
+[32m|[m [32m+[m[32m    <header>[m
+[32m|[m [32m+[m[32m        <h1>Willkommen zum GIT Quiz</h1>[m
+[32m|[m [32m+[m[32m        <nav>[m
+[32m|[m [32m+[m[32m            <ul>[m
+[32m|[m [32m+[m[32m                <li><a href="index.html">Home</a></li>[m
+[32m|[m [32m+[m[32m                <li><a href="about.html">Über uns</a></li>[m
+[32m|[m [32m+[m[32m            </ul>[m
+[32m|[m [32m+[m[32m        </nav>[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m        <!-- # TO DO: deinen Namen einfügen, dann Commit durchführen! -->[m
+[32m|[m [32m+[m[41m         [m
+[32m|[m [32m+[m[32m    </header>[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m    <main>[m
+[32m|[m [32m+[m[32m         <h1>Commit Message Training</h1>[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m    <h2>Schlechte Commit-Messages</h2>[m
+[32m|[m [32m+[m[32m    <ul>[m
+[32m|[m [32m+[m[32m        <li>update</li>[m
+[32m|[m [32m+[m[32m        <li>fix stuff</li>[m
+[32m|[m [32m+[m[32m        <li>changes</li>[m
+[32m|[m [32m+[m[32m        <li>bug fixed</li>[m
+[32m|[m [32m+[m[32m        <li>asdf</li>[m
+[32m|[m [32m+[m[32m    </ul>[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m    </main>[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m    <footer>[m
+[32m|[m [32m+[m[32m        <p>&copy; 2026 GIT Quiz Template</p>[m
+[32m|[m [32m+[m[32m    </footer>[m
+[32m|[m [32m+[m[32m</body>[m
+[32m|[m [32m+[m[32m</html>[m
+[32m|[m [1mdiff --git a/project/style.css b/project/style.css[m
+[32m|[m [1mnew file mode 100644[m
+[32m|[m [1mindex 0000000..d9a3389[m
+[32m|[m [1m--- /dev/null[m
+[32m|[m [1m+++ b/project/style.css[m
+[32m|[m [36m@@ -0,0 +1,100 @@[m
+[32m|[m [32m+[m[32m/* GIT Quiz - Stylesheet */[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m* {[m
+[32m|[m [32m+[m[32m    margin: 0;[m
+[32m|[m [32m+[m[32m    padding: 0;[m
+[32m|[m [32m+[m[32m    box-sizing: border-box;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32mbody {[m
+[32m|[m [32m+[m[32m    font-family: Arial, sans-serif;[m
+[32m|[m [32m+[m[32m    line-height: 1.6;[m
+[32m|[m [32m+[m[32m    color: #333;[m
+[32m|[m [32m+[m[32m    background-color: #f4f4f4;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32mheader {[m
+[32m|[m [32m+[m[32m    background-color: #2c3e50;[m
+[32m|[m [32m+[m[32m    color: white;[m
+[32m|[m [32m+[m[32m    padding: 1rem 0;[m
+[32m|[m [32m+[m[32m    text-align: center;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32mheader h1 {[m
+[32m|[m [32m+[m[32m    margin-bottom: 1rem;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32mnav ul {[m
+[32m|[m [32m+[m[32m    list-style: none;[m
+[32m|[m [32m+[m[32m    display: flex;[m
+[32m|[m [32m+[m[32m    justify-content: center;[m
+[32m|[m [32m+[m[32m    gap: 2rem;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32mnav a {[m
+[32m|[m [32m+[m[32m    color: white;[m
+[32m|[m [32m+[m[32m    text-decoration: none;[m
+[32m|[m [32m+[m[32m    font-weight: bold;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32mnav a:hover {[m
+[32m|[m [32m+[m[32m    color: #3498db;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32mmain {[m
+[32m|[m [32m+[m[32m    max-width: 1200px;[m
+[32m|[m [32m+[m[32m    margin: 2rem auto;[m
+[32m|[m [32m+[m[32m    padding: 0 1rem;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32msection {[m
+[32m|[m [32m+[m[32m    background: white;[m
+[32m|[m [32m+[m[32m    padding: 2rem;[m
+[32m|[m [32m+[m[32m    margin-bottom: 2rem;[m
+[32m|[m [32m+[m[32m    border-radius: 8px;[m
+[32m|[m [32m+[m[32m    box-shadow: 0 2px 5px rgba(0,0,0,0.1);[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m.content {[m
+[32m|[m [32m+[m[32m    display: grid;[m
+[32m|[m [32m+[m[32m    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));[m
+[32m|[m [32m+[m[32m    gap: 1.5rem;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m.card {[m
+[32m|[m [32m+[m[32m    padding: 1.5rem;[m
+[32m|[m [32m+[m[32m    background: #ecf0f1;[m
+[32m|[m [32m+[m[32m    border-radius: 5px;[m
+[32m|[m [32m+[m[32m    transition: transform 0.3s;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m.card:hover {[m
+[32m|[m [32m+[m[32m    transform: translateY(-5px);[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m.team-member {[m
+[32m|[m [32m+[m[32m    margin: 1rem 0;[m
+[32m|[m [32m+[m[32m    padding: 1rem;[m
+[32m|[m [32m+[m[32m    background: #ecf0f1;[m
+[32m|[m [32m+[m[32m    border-left: 4px solid #3498db;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32mfooter {[m
+[32m|[m [32m+[m[32m    background-color: #2c3e50;[m
+[32m|[m [32m+[m[32m    color: white;[m
+[32m|[m [32m+[m[32m    text-align: center;[m
+[32m|[m [32m+[m[32m    padding: 1rem 0;[m
+[32m|[m [32m+[m[32m    position: fixed;[m
+[32m|[m [32m+[m[32m    bottom: 0;[m
+[32m|[m [32m+[m[32m    width: 100%;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32mh2 {[m
+[32m|[m [32m+[m[32m    color: #2c3e50;[m
+[32m|[m [32m+[m[32m    margin-bottom: 1rem;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32mh3 {[m
+[32m|[m [32m+[m[32m    color: #34495e;[m
+[32m|[m [32m+[m[32m    margin-bottom: 0.5rem;[m
+[32m|[m [32m+[m[32m}[m
+[32m|[m [1mdiff --git a/punkte_sheet.md b/punkte_sheet.md[m
+[32m|[m [1mnew file mode 100644[m
+[32m|[m [1mindex 0000000..665837a[m
+[32m|[m [1m--- /dev/null[m
+[32m|[m [1m+++ b/punkte_sheet.md[m
+[32m|[m [36m@@ -0,0 +1,73 @@[m
+[32m|[m [32m+[m[32m# GIT Quiz – Bewertungskriterien & Notenraster[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m## Gesamtpunkte: 18[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m---[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m## 1. Fork / Clone – 2 Punkte[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m| Kriterium | Punkte |[m
+[32m|[m [32m+[m[32m|------------|--------|[m
+[32m|[m [32m+[m[32m| Repository korrekt geforkt | 1 |[m
+[32m|[m [32m+[m[32m| Repository lokal korrekt geklont | 1 |[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m---[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m## 2. Erster Commit – 3 Punkte[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m| Kriterium | Punkte |[m
+[32m|[m [32m+[m[32m|------------|--------|[m
+[32m|[m [32m+[m[32m| Änderung korrekt durchgeführt & gestaged | 1 |[m
+[32m|[m [32m+[m[32m| Commit technisch korrekt erstellt | 1 |[m
+[32m|[m [32m+[m[32m| Commit-Message sinnvoll und konkret formuliert | 1 |[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m---[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m## 3. Branch-Arbeit – 4 Punkte[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m| Kriterium | Punkte |[m
+[32m|[m [32m+[m[32m|------------|--------|[m
+[32m|[m [32m+[m[32m| Branch korrekt erstellt & gewechselt | 1 |[m
+[32m|[m [32m+[m[32m| Schlechte Commit-Messages sinnvoll verbessert | 2 |[m
+[32m|[m [32m+[m[32m| Commit am Branch korrekt durchgeführt | 1 |[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m---[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m## 4. Merge-Conflict – 5 Punkte[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m| Kriterium | Punkte |[m
+[32m|[m [32m+[m[32m|------------|--------|[m
+[32m|[m [32m+[m[32m| Merge-Conflict korrekt provoziert | 2 |[m
+[32m|[m [32m+[m[32m| Merge-Conflict technisch korrekt gelöst | 2 |[m
+[32m|[m [32m+[m[32m| Saubere Repository-Struktur / keine zerstörte History | 1 |[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m---[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m## 5. Git History – 4 Punkte[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m| Kriterium | Punkte |[m
+[32m|[m [32m+[m[32m|------------|--------|[m
+[32m|[m [32m+[m[32m| Richtigen Commit identifiziert | 1 |[m
+[32m|[m [32m+[m[32m| Commit-ID korrekt angegeben | 1 |[m
+[32m|[m [32m+[m[32m| Richtigen Befehl genannt | 1 |[m
+[32m|[m [32m+[m[32m| Anzahl der Commits korrekt angegeben | 1 |[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m---[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m# Notenraster (18 Punkte)[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m| Punkte | Note |[m
+[32m|[m [32m+[m[32m|--------|------|[m
+[32m|[m [32m+[m[32m| 16–18 | Sehr gut |[m
+[32m|[m [32m+[m[32m| 13–15 | Gut |[m
+[32m|[m [32m+[m[32m| 10–12 | Befriedigend |[m
+[32m|[m [32m+[m[32m| 8–9   | Genügend |[m
+[32m|[m [32m+[m[32m| 0–7   | Nicht genügend |[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m---[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m## Hinweise zur Bewertung[m
+[32m|[m [32m+[m
+[32m|[m [32m+[m[32m- Commit-Messages sollen klar beschreiben, was geändert wurde.[m
+[32m|[m [32m+[m[32m- Allgemeine Nachrichten wie „update“ oder „changes“ gelten als nicht ausreichend.[m
+[32m|[m [32m+[m[32m- Beim Merge-Conflict wird bewertet, ob die Konfliktmarker korrekt entfernt und die Datei sauber zusammengeführt wurde.[m
+[32m|[m \ No newline at end of file[m
+[32m|[m 
+* [33mcommit 6215e026e4bf13c6c962a9be29ffe2ab48f7581c[m
+  Author: Natascha Rammelmüller <104194982+nrammelmueller@users.noreply.github.com>
+  Date:   Mon Feb 23 11:34:41 2026 +0100
+  
+      Initial commit
+  
+  [1mdiff --git a/README.md b/README.md[m
+  [1mnew file mode 100644[m
+  [1mindex 0000000..9caec7e[m
+  [1m--- /dev/null[m
+  [1m+++ b/README.md[m
+  [36m@@ -0,0 +1 @@[m
+  [32m+[m[32m# git-quiz-3bhitm[m
+  \ No newline at end of file[m
